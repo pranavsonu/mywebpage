@@ -1,0 +1,74 @@
+h1{
+    background:linear-gradient(to top left, darkred, red);
+    border: green solid 10px;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Poppins', Arial, sans-serif;
+    color: lightgreen;
+}
+h3{
+    background: linear-gradient(to top left, darkorange, orange);
+    border: blue solid 10px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'KoHo', Arial, sans-serif;
+    color: blue;
+}
+h5{
+    background:linear-gradient(to top left, yellow, lightyellow);
+    border: purple solid 10px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Mukta', Arial, sans-serif;
+    color: purple
+}
+body{
+    background: linear-gradient(to top left, darkgreen, lightyellow); 
+    border: pink dashed 3px;
+    border-radius: 10px;
+}
+p{
+    background:linear-gradient(to top left, darkgreen, lightgreen);
+    border: red solid 10px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    text-align: justify;
+    text-decoration: underline overline;
+    font-family: 'Josefin Sans', 'Ink Free', sans-serif;
+    color: darkred;
+}
+ul{
+    background:linear-gradient(to top left, darkblue, lightblue);
+    border: orange solid 10px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Prompt', 'Ink Free', sans-serif;
+    color: darkorange;
+}
+a{
+border: lightskyblue solid 5px;
+background-color: lightskyblue;
+border-radius: 10px;
+padding: 10px;
+padding-left: 15px;
+padding-right: 15px;
+display: block;
+float: right;
+color:blue;
+text-decoration: none;
+}
+img{
+    border: purple solid 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

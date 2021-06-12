@@ -1,0 +1,162 @@
+h1{
+    background:red;
+    border: green solid 10px;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 50px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    animation: myFirstColor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-family: cursive;
+}
+@keyframes myFirstColor{
+    0%{background-color: red; color: green;}
+    10%{background-color: orange; color: lightblue}
+    20%{background-color: yellow; color: purple;}
+    30%{background-color: green; color: red;}
+    40%{background-color: blue; color: orange}
+    50%{background-color: purple; color: yellow;}
+    60%{background-color: blue; color: orange;}
+    70%{background-color: green; color: red;}
+    80%{background-color: yellow; color: purple}
+    90%{background-color: orange; color: blue;}
+    100%{background-color: red; color: green;}
+}
+
+h3{
+    background: orange;
+    border: blue solid 10px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 10px 15px 0px #666677;
+    animation: mySecondColor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes mySecondColor{
+0%{background-color: orange}
+30%{background-color: yellow}
+60%{background-color: green}
+90%{background-color: lightblue}
+100%{background-color: purple}
+}
+h5{
+    background: yellow;
+    border: purple solid 10px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 10px 15px 0px #666688;
+    animation: myThirdColor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+body{
+    background-image: url(/coding/files\ about\ html/images/HTML5.png);
+    background-repeat: no-repeat;
+        border-radius: 10px;
+        box-shadow: 30px 30px 10px #666699;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+p{
+    background:green;
+    border: red solid 10px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    text-align: justify;
+text-shadow: 0px 0px 6px yellow, 0px -5px 3px red;
+box-shadow: 10px 15px 0px #997799;
+animation: myFourthColor;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+.six{
+    background:linear-gradient(to top left, darkblue, lightblue);
+    border: orange solid 10px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 10px 15px 0px gray;
+}
+.one{
+border: lightskyblue solid 5px;
+background-color: lightskyblue;
+border-radius: 10px;
+padding: 10px;
+padding-left: 15px;
+padding-right: 15px;
+display: block;
+color:blue;
+text-decoration: underline;
+}
+.one:hover{
+    background-color: blue;
+    color: lightblue;
+    border: blue solid 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: underline overline lightskyblue;
+}
+.one:active{
+background-color: darkblue;
+color: lightskyblue;
+border: darkblue solid 10px;
+padding: 10px;
+padding-left: 15px;
+padding-right: 15px;
+text-decoration: underline overline lightskyblue wavy;
+}
+.five:visited{
+    background: lightyellow;
+    color: darkgreen;
+}
+.five:hover{
+    background-color: lightblue;
+    color: red;
+}
+.five:active{
+    background-color: yellow;
+    color: lightgreen;
+}
+.three:nth-child(2n+1){
+    background-image: linear-gradient(to right, #fff421, #ffffff);
+    border-radius: 10px;
+}
+.four:nth-child(2n+2){
+    background-image: linear-gradient(to right, lightgreen, #ffffff)
+}
+.two{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #999999;
+}
+li a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+}
+.ten{
+    border: purple solid 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    border: black solid 10px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}

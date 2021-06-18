@@ -13,17 +13,17 @@ h1{
     font-family: cursive;
 }
 @keyframes myFirstColor{
-    0%{background-color: red; color: green;}
-    10%{background-color: orange; color: lightblue}
-    20%{background-color: yellow; color: purple;}
-    30%{background-color: green; color: red;}
-    40%{background-color: blue; color: orange}
-    50%{background-color: purple; color: yellow;}
-    60%{background-color: blue; color: orange;}
-    70%{background-color: green; color: red;}
-    80%{background-color: yellow; color: purple}
-    90%{background-color: orange; color: blue;}
-    100%{background-color: red; color: green;}
+    0%{background-color: red; color: green; border: green solid 10px; border-radius: 0px;}
+    10%{background-color: orange; color: blue; border: blue dashed 10px; border-radius: 10px; }
+    20%{background-color: yellow; color: purple; border: purple dotted 10px; border-radius: 20px;}
+    30%{background-color: green; color: red; border: red solid 10px; border-radius: 30px}
+    40%{background-color: blue; color: orange; border: orange dashed 10px; border-radius: 40px}
+    50%{background-color: purple; color: yellow; border: yellow dotted 10px; border-radius: 50px;}
+    60%{background-color: blue; color: orange; border: orange solid 10px; border-radius: 40px;}
+    70%{background-color: green; color: red; border: red dashed 10px; border-radius: 30px;}
+    80%{background-color: yellow; color: purple; border: purple dotted 10px; border-radius: 20px;}
+    90%{background-color: orange; color: blue; border: blue solid 10px; border-radius: 10px;}
+    100%{background-color: red; color: green; border: green dashed 10px; border-radius: 0px;}
 }
 
 h3{
@@ -80,10 +80,10 @@ animation: myFourthColor;
 animation-duration: 5s;
 animation-iteration-count: infinite;
 }
-.six{
+ul{
     background:linear-gradient(to top left, darkblue, lightblue);
     border: orange solid 10px;
-    padding: 10px;
+    padding: 3px;
     margin: 5px;
     border-radius: 50px;
     text-align: center;
@@ -130,11 +130,11 @@ text-decoration: underline overline lightskyblue wavy;
     background-color: yellow;
     color: lightgreen;
 }
-.three:nth-child(2n+1){
+li:nth-child(2n+1){
     background-image: linear-gradient(to right, #fff421, #ffffff);
     border-radius: 10px;
 }
-.four:nth-child(2n+2){
+li:nth-child(2n+2){
     background-image: linear-gradient(to right, lightgreen, #ffffff)
 }
 .two{
@@ -142,21 +142,4 @@ text-decoration: underline overline lightskyblue wavy;
     padding: 0px;
     margin: 0px;
     background-color: #999999;
-}
-li a{
-    float: left;
-    display: block;
-    color: white;
-    padding: 10px 15px;
-}
-.ten{
-    border: purple solid 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-img{
-    border: black solid 10px;
-    border-radius: 50px;
-    margin-left: auto;
-    margin-right: auto;
 }
